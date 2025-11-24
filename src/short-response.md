@@ -18,7 +18,7 @@ In your own words, explain what does _encapsulation_ refer to? Why is this conce
 
 Provide a code snippet to illustrate _encapsulation_.
 
-Encapsulation refers to a core componenet of object oriented programming. Encapsulation is esentially like hiding your data and only you have controlled access to it. An example of encapsulation is the smart phone you use, a smart phone has a bunch of internals but you don't interact with any of them, instead you use the screen and the software provided. In order to hide your data you would make certain properties private or public depending on what the property is, for example a password property would be private. Encapsulation also allows you to have more control over things and how properies are used. Take the password property for example again, instead of having the user put anything they want, you can have a certatin character minimum or numbers included in the password for it to be valid.
+Encapsulation refers to a core component of object oriented programming. Encapsulation is esentially like hiding your data and only you have controlled access to it. An example of encapsulation is the smart phone you use, a smart phone has a bunch of internals but you don't interact with any of them, instead you use the screen and the software provided. In order to hide your data, you would make certain properties private or public depending on what the property is. For example a password property would be private. Encapsulation also allows you to have more control over things and how properies are used. Take the password property for example again, instead of having the user put anything they want, you can have a certatin character minimum or numbers included in the password for it to be valid.
 
 ## Code Example:
 
@@ -75,7 +75,7 @@ console.log(counterB.count);
 
 In your own words, explain what **polymorphism** means in OOP. Provide an example in code that demonstrates polymorphism.
 
-Polymorphism in OOP is basically the ability for objects to interact with methods in their own way. For example, asking an animal to make a sound, each animal makes different sounds, a dog barks, cows moo, but all animals, make a sound.
+Polymorphism in OOP is the ability for objects to interact with methods in their own way. For example, asking an animal to make a sound, each animal makes different sounds, a dog barks, cows moo, but all animals, make a sound.
 
 ## Code Example:
 
