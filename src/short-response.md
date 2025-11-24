@@ -18,7 +18,7 @@ In your own words, explain what does _encapsulation_ refer to? Why is this conce
 
 Provide a code snippet to illustrate _encapsulation_.
 
-Encapsulation refers to a core component of object oriented programming. Encapsulation is esentially like hiding your data and only you have controlled access to it. An example of encapsulation is the smart phone you use, a smart phone has a bunch of internals but you don't interact with any of them, instead you use the screen and the software provided. In order to hide your data, you would make certain properties private or public depending on what the property is. For example a password property would be private. Encapsulation also allows you to have more control over things and how properies are used. Take the password property for example again, instead of having the user put anything they want, you can have a certatin character minimum or numbers included in the password for it to be valid.
+Encapsulation refers to a core component of object-oriented programming. Encapsulation is essentially like hiding your data, and only you have controlled access to it. An example of encapsulation is the smartphone you use. A smartphone has a multitude of internals, but you don't interact with any of them; instead, you use the screen and the software provided. To hide your data, you would set certain properties to private or public, depending on their purpose. For example, a password property would be private. Encapsulation also allows you to have more control over things and how properties are used. Take the password property for example, again; instead of having the user enter anything they want, you can require a certain character minimum or include numbers in the password for it to be valid.
 
 ## Code Example:
 
@@ -42,7 +42,7 @@ Here we can see that the `#score` propery is private, and can only be interacted
 
 Explain what the `this` keyword is. Why is the `this` keyword useful?
 
-The `this` keyword is used to specify which object is using the code. It's like saying I'm going to use "this" object. Whenever the `this` keyword is used inside of a class, each specific object keeps track of its own data. The `this` keyword is useful because it helps methods within a class know which objects to interact with, and each object recieves a copy of whatever properties were definded with `this`.
+The `this` keyword is used to specify which object is using the code. It's like saying I'm going to use "this" object. Whenever the `this` keyword is used inside a class, each specific object keeps track of its own data. The `this` keyword is useful because it helps methods within a class know which objects to interact with, and each object receives a copy of whatever properties were defined with `this`.
 
 In the code snippet below, what does `this` refer to?
 
@@ -75,7 +75,7 @@ console.log(counterB.count);
 
 In your own words, explain what **polymorphism** means in OOP. Provide an example in code that demonstrates polymorphism.
 
-Polymorphism in OOP is the ability for objects to interact with methods in their own way. For example, asking an animal to make a sound, each animal makes different sounds, a dog barks, cows moo, but all animals, make a sound.
+Polymorphism in OOP is the ability for objects to interact with methods in their own way. For example, asking an animal to make a sound, each animal makes different sounds, a dog barks, cows moo, but all animals make a sound.
 
 ## Code Example:
 
@@ -107,8 +107,8 @@ You're building a game where players can raise different digital pets: Cats, Dog
 
 **Part A:** Describe in words how you would use inheritance to organize these classes.
 
-First I'd start by creating my pet class, this would include the `name`, `energy`, `happiness`, and a method for `sleep`. Then I'd create the three child classes that inherits methods from the pet class. So I'd do `Cat extends Pet`, `Dog extends Pet`, and `Bird extends Pet`, all three child classes now have `name`, `energy`, `happiness` and the `sleep()` method from the parent pet class so nothing needs to be rewritten. Then I'd add each of the unique behaviors of each pet, so cat would have `hunt()`, dog would have `chase()`, and bird would have `fly()`.
+First, I'd start by creating my pet class, which would include the `name`, `energy`, `happiness`, and a method for `sleep`. Then I'd create the three child classes that inherit methods from the pet class. So I'd do `Cat extends Pet`, `Dog extends Pet`, and `Bird extends Pet`, all three child classes now have `name`, `energy`, `happiness`, and the `sleep()` method from the parent pet class, so nothing needs to be rewritten. Then I'd add each of the unique behaviors of each pet, so cat would have `hunt()`, dog would have `chase()`, and bird would have `fly()`.
 
 **Part B:** Explain one advantage of using inheritance here instead of creating three completely separate classes.
 
-One advantage of using inhertiance here instead of creating three seperate classes is that cat, dog, and bird, all have `name`, `energy`, `happiness` and the `sleep()` method, so using inheritance allows all of them to have those methods without having to do anything else. Whereas if we made seperate classes each method or property would have to be rewritten for each class.
+One advantage of using inheritance here instead of creating three separate classes is that cat, dog, and bird all have `name`, `energy`, `happiness`, and the `sleep()` method, so using inheritance allows all of them to have those methods without having to do anything else. Whereas if we made separate classes, each method or property would have to be rewritten for each class.
